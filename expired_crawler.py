@@ -25,11 +25,11 @@ def crawler(date="today"):
     driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chromeOptions)
 
     print("Getting Base Site")
-    driver.save_screenshot('00.png')
+    #driver.save_screenshot('00.png')
     driver.get("https://idp.mynysmls.com/idp/Authn/UserPassword")
-    driver.save_screenshot('01.png')
+    #driver.save_screenshot('01.png')
     driver.find_element_by_css_selector("a[onclick*='buffalo']").click()
-    driver.save_screenshot('02.png')
+    #driver.save_screenshot('02.png')
 
     print("Logging in to MLS...")
     time.sleep(3)
