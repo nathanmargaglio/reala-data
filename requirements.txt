@@ -8,7 +8,7 @@ djangorestframework==3.6.3
 EasyProcess==0.2.3
 gunicorn==19.7.1
 idna==2.5
-lxml==3.8.0
+lxml==4.9.1
 psycopg2==2.7.1
 pytz==2017.2
 PyVirtualDisplay==0.2.1
